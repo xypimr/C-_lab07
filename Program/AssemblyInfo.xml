@@ -1,0 +1,89 @@
+<Lab07>
+    Animals, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+    <class>Animal : System.Object
+        <comment>Abstract Class</comment>
+        <method>String get_WhatAnimal ()</method>
+        <method>Void set_WhatAnimal ()</method>
+        <method>String get_Name ()</method>
+        <method>Void set_Name ()</method>
+        <method>Boolean get_HideFromOtherAnimals ()</method>
+        <method>Void set_HideFromOtherAnimals ()</method>
+        <method>String get_Country ()</method>
+        <method>Void set_Country ()</method>
+        <method>virtual Void SayHello ()</method>
+        <method>String GetClassificationAnimal ()</method>
+        <method>String GetFavouriteFood ()</method>
+        <method>Type GetType ()</method>
+        <method>virtual String ToString ()</method>
+        <method>virtual Boolean Equals ()</method>
+        <method>virtual Int32 GetHashCode ()</method>
+    </class>
+
+    <class>CommentAttribute : System.Attribute
+        <method>virtual Boolean Equals ()</method>
+        <method>virtual Int32 GetHashCode ()</method>
+        <method>virtual Object get_TypeId ()</method>
+        <method>virtual Boolean Match ()</method>
+        <method>virtual Boolean IsDefaultAttribute ()</method>
+        <method>Type GetType ()</method>
+        <method>virtual String ToString ()</method>
+    </class>
+
+    <class>Cow : Animals.Animal
+        <comment>Class Cow</comment>
+        <method>virtual Void SayHello ()</method>
+        <method>String get_WhatAnimal ()</method>
+        <method>Void set_WhatAnimal ()</method>
+        <method>String get_Name ()</method>
+        <method>Void set_Name ()</method>
+        <method>Boolean get_HideFromOtherAnimals ()</method>
+        <method>Void set_HideFromOtherAnimals ()</method>
+        <method>String get_Country ()</method>
+        <method>Void set_Country ()</method>
+        <method>String GetClassificationAnimal ()</method>
+        <method>String GetFavouriteFood ()</method>
+        <method>Type GetType ()</method>
+        <method>virtual String ToString ()</method>
+        <method>virtual Boolean Equals ()</method>
+        <method>virtual Int32 GetHashCode ()</method>
+    </class>
+
+    <class>Lion : Animals.Animal
+        <comment>Class Lion</comment>
+        <method>virtual Void SayHello ()</method>
+        <method>String get_WhatAnimal ()</method>
+        <method>Void set_WhatAnimal ()</method>
+        <method>String get_Name ()</method>
+        <method>Void set_Name ()</method>
+        <method>Boolean get_HideFromOtherAnimals ()</method>
+        <method>Void set_HideFromOtherAnimals ()</method>
+        <method>String get_Country ()</method>
+        <method>Void set_Country ()</method>
+        <method>String GetClassificationAnimal ()</method>
+        <method>String GetFavouriteFood ()</method>
+        <method>Type GetType ()</method>
+        <method>virtual String ToString ()</method>
+        <method>virtual Boolean Equals ()</method>
+        <method>virtual Int32 GetHashCode ()</method>
+    </class>
+
+    <class>Pig : Animals.Animal
+        <comment>Class Pig</comment>
+        <method>virtual Void SayHello ()</method>
+        <method>String get_WhatAnimal ()</method>
+        <method>Void set_WhatAnimal ()</method>
+        <method>String get_Name ()</method>
+        <method>Void set_Name ()</method>
+        <method>Boolean get_HideFromOtherAnimals ()</method>
+        <method>Void set_HideFromOtherAnimals ()</method>
+        <method>String get_Country ()</method>
+        <method>Void set_Country ()</method>
+        <method>String GetClassificationAnimal ()</method>
+        <method>String GetFavouriteFood ()</method>
+        <method>Type GetType ()</method>
+        <method>virtual String ToString ()</method>
+        <method>virtual Boolean Equals ()</method>
+        <method>virtual Int32 GetHashCode ()</method>
+    </class>
+</Lab07>
