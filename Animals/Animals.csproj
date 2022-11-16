@@ -6,4 +6,11 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Library" Version="1.0.0" />
+      <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+      <PackageReference Include="System.Xml.ReaderWriter" Version="4.3.1" />
+      <PackageReference Include="System.Xml.XDocument" Version="4.3.0" />
+    </ItemGroup>
+
 </Project>
