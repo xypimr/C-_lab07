@@ -1,4 +1,6 @@
-﻿namespace Animals;
+﻿using System.Xml.Serialization;
+
+namespace Animals;
 
 public enum eFavouriteFood
 {
@@ -33,8 +35,9 @@ class ClassificationAttribute : Attribute
 }
 
 [Comment("Abstract Class")]
+[XmlInclude(typeof(Cow))]
 [Serializable]
-public class Animal
+public abstract class Animal
 {
 
 

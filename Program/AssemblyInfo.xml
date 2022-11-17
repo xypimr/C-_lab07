@@ -1,104 +1,104 @@
 <Lab07>
-Animals, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+    Animals, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 
-<class> Animal : System.Object
-<attribute>System.SerializableAttribute</attriubute>
-<attribute>System.Runtime.CompilerServices.NullableContextAttribute</attriubute>
-<attribute>System.Runtime.CompilerServices.NullableAttribute</attriubute>
-<attribute>Animals.CommentAttribute</attriubute>
-<method>String get_WhatAnimal ()</method>
-<method>Void set_WhatAnimal ()</method>
-<method>String get_Name ()</method>
-<method>Void set_Name ()</method>
-<method>Boolean get_HideFromOtherAnimals ()</method>
-<method>Void set_HideFromOtherAnimals ()</method>
-<method>String get_Country ()</method>
-<method>Void set_Country ()</method>
-<method>virtual Void SayHello ()</method>
-<method>String GetClassificationAnimal ()</method>
-<method>String GetFavouriteFood ()</method>
-<method>Type GetType ()</method>
-<method>virtual String ToString ()</method>
-<method>virtual Boolean Equals ()</method>
-<method>virtual Int32 GetHashCode ()</method>
-</class>
+    <class>Animal : System.Object
+        <attribute>System.SerializableAttribute</attriubute>
+        <attribute>System.Runtime.CompilerServices.NullableContextAttribute</attriubute>
+        <attribute>System.Runtime.CompilerServices.NullableAttribute</attriubute>
+        <attribute>Animals.CommentAttribute</attriubute>
+        <method>String get_WhatAnimal ()</method>
+        <method>Void set_WhatAnimal ()</method>
+        <method>String get_Name ()</method>
+        <method>Void set_Name ()</method>
+        <method>Boolean get_HideFromOtherAnimals ()</method>
+        <method>Void set_HideFromOtherAnimals ()</method>
+        <method>String get_Country ()</method>
+        <method>Void set_Country ()</method>
+        <method>virtual Void SayHello ()</method>
+        <method>String GetClassificationAnimal ()</method>
+        <method>String GetFavouriteFood ()</method>
+        <method>Type GetType ()</method>
+        <method>virtual String ToString ()</method>
+        <method>virtual Boolean Equals ()</method>
+        <method>virtual Int32 GetHashCode ()</method>
+    </class>
 
-<class> CommentAttribute : System.Attribute
-<attribute>System.Runtime.CompilerServices.NullableContextAttribute</attriubute>
-<attribute>System.Runtime.CompilerServices.NullableAttribute</attriubute>
-<attribute>System.AttributeUsageAttribute</attriubute>
-<method>virtual Boolean Equals ()</method>
-<method>virtual Int32 GetHashCode ()</method>
-<method>virtual Object get_TypeId ()</method>
-<method>virtual Boolean Match ()</method>
-<method>virtual Boolean IsDefaultAttribute ()</method>
-<method>Type GetType ()</method>
-<method>virtual String ToString ()</method>
-</class>
+    <class>CommentAttribute : System.Attribute
+        <attribute>System.Runtime.CompilerServices.NullableContextAttribute</attriubute>
+        <attribute>System.Runtime.CompilerServices.NullableAttribute</attriubute>
+        <attribute>System.AttributeUsageAttribute</attriubute>
+        <method>virtual Boolean Equals ()</method>
+        <method>virtual Int32 GetHashCode ()</method>
+        <method>virtual Object get_TypeId ()</method>
+        <method>virtual Boolean Match ()</method>
+        <method>virtual Boolean IsDefaultAttribute ()</method>
+        <method>Type GetType ()</method>
+        <method>virtual String ToString ()</method>
+    </class>
 
-<class> Cow : Animals.Animal
-<attribute>System.SerializableAttribute</attriubute>
-<attribute>Animals.ClassificationAttribute</attriubute>
-<attribute>Animals.FoodAttribute</attriubute>
-<attribute>Animals.CommentAttribute</attriubute>
-<method>virtual Void SayHello ()</method>
-<method>String get_WhatAnimal ()</method>
-<method>Void set_WhatAnimal ()</method>
-<method>String get_Name ()</method>
-<method>Void set_Name ()</method>
-<method>Boolean get_HideFromOtherAnimals ()</method>
-<method>Void set_HideFromOtherAnimals ()</method>
-<method>String get_Country ()</method>
-<method>Void set_Country ()</method>
-<method>String GetClassificationAnimal ()</method>
-<method>String GetFavouriteFood ()</method>
-<method>Type GetType ()</method>
-<method>virtual String ToString ()</method>
-<method>virtual Boolean Equals ()</method>
-<method>virtual Int32 GetHashCode ()</method>
-</class>
+    <class>Cow : Animals.Animal
+        <attribute>System.SerializableAttribute</attriubute>
+        <attribute>Animals.ClassificationAttribute</attriubute>
+        <attribute>Animals.FoodAttribute</attriubute>
+        <attribute>Animals.CommentAttribute</attriubute>
+        <method>virtual Void SayHello ()</method>
+        <method>String get_WhatAnimal ()</method>
+        <method>Void set_WhatAnimal ()</method>
+        <method>String get_Name ()</method>
+        <method>Void set_Name ()</method>
+        <method>Boolean get_HideFromOtherAnimals ()</method>
+        <method>Void set_HideFromOtherAnimals ()</method>
+        <method>String get_Country ()</method>
+        <method>Void set_Country ()</method>
+        <method>String GetClassificationAnimal ()</method>
+        <method>String GetFavouriteFood ()</method>
+        <method>Type GetType ()</method>
+        <method>virtual String ToString ()</method>
+        <method>virtual Boolean Equals ()</method>
+        <method>virtual Int32 GetHashCode ()</method>
+    </class>
 
-<class> Lion : Animals.Animal
-<attribute>System.SerializableAttribute</attriubute>
-<attribute>Animals.ClassificationAttribute</attriubute>
-<attribute>Animals.FoodAttribute</attriubute>
-<attribute>Animals.CommentAttribute</attriubute>
-<method>virtual Void SayHello ()</method>
-<method>String get_WhatAnimal ()</method>
-<method>Void set_WhatAnimal ()</method>
-<method>String get_Name ()</method>
-<method>Void set_Name ()</method>
-<method>Boolean get_HideFromOtherAnimals ()</method>
-<method>Void set_HideFromOtherAnimals ()</method>
-<method>String get_Country ()</method>
-<method>Void set_Country ()</method>
-<method>String GetClassificationAnimal ()</method>
-<method>String GetFavouriteFood ()</method>
-<method>Type GetType ()</method>
-<method>virtual String ToString ()</method>
-<method>virtual Boolean Equals ()</method>
-<method>virtual Int32 GetHashCode ()</method>
-</class>
+    <class>Lion : Animals.Animal
+        <attribute>System.SerializableAttribute</attriubute>
+        <attribute>Animals.ClassificationAttribute</attriubute>
+        <attribute>Animals.FoodAttribute</attriubute>
+        <attribute>Animals.CommentAttribute</attriubute>
+        <method>virtual Void SayHello ()</method>
+        <method>String get_WhatAnimal ()</method>
+        <method>Void set_WhatAnimal ()</method>
+        <method>String get_Name ()</method>
+        <method>Void set_Name ()</method>
+        <method>Boolean get_HideFromOtherAnimals ()</method>
+        <method>Void set_HideFromOtherAnimals ()</method>
+        <method>String get_Country ()</method>
+        <method>Void set_Country ()</method>
+        <method>String GetClassificationAnimal ()</method>
+        <method>String GetFavouriteFood ()</method>
+        <method>Type GetType ()</method>
+        <method>virtual String ToString ()</method>
+        <method>virtual Boolean Equals ()</method>
+        <method>virtual Int32 GetHashCode ()</method>
+    </class>
 
-<class> Pig : Animals.Animal
-<attribute>System.SerializableAttribute</attriubute>
-<attribute>Animals.ClassificationAttribute</attriubute>
-<attribute>Animals.FoodAttribute</attriubute>
-<attribute>Animals.CommentAttribute</attriubute>
-<method>virtual Void SayHello ()</method>
-<method>String get_WhatAnimal ()</method>
-<method>Void set_WhatAnimal ()</method>
-<method>String get_Name ()</method>
-<method>Void set_Name ()</method>
-<method>Boolean get_HideFromOtherAnimals ()</method>
-<method>Void set_HideFromOtherAnimals ()</method>
-<method>String get_Country ()</method>
-<method>Void set_Country ()</method>
-<method>String GetClassificationAnimal ()</method>
-<method>String GetFavouriteFood ()</method>
-<method>Type GetType ()</method>
-<method>virtual String ToString ()</method>
-<method>virtual Boolean Equals ()</method>
-<method>virtual Int32 GetHashCode ()</method>
-</class>
+    <class>Pig : Animals.Animal
+        <attribute>System.SerializableAttribute</attriubute>
+        <attribute>Animals.ClassificationAttribute</attriubute>
+        <attribute>Animals.FoodAttribute</attriubute>
+        <attribute>Animals.CommentAttribute</attriubute>
+        <method>virtual Void SayHello ()</method>
+        <method>String get_WhatAnimal ()</method>
+        <method>Void set_WhatAnimal ()</method>
+        <method>String get_Name ()</method>
+        <method>Void set_Name ()</method>
+        <method>Boolean get_HideFromOtherAnimals ()</method>
+        <method>Void set_HideFromOtherAnimals ()</method>
+        <method>String get_Country ()</method>
+        <method>Void set_Country ()</method>
+        <method>String GetClassificationAnimal ()</method>
+        <method>String GetFavouriteFood ()</method>
+        <method>Type GetType ()</method>
+        <method>virtual String ToString ()</method>
+        <method>virtual Boolean Equals ()</method>
+        <method>virtual Int32 GetHashCode ()</method>
+    </class>
 </Lab07>
